@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+int	a,b,c;
+main(){
+	cin>>a>>b>>c;
+	while(1){
+		if(a==b+c){
+			cout<<a<<"="<<b<<"+"<<c;
+			break; 
+		}
+		if(a==b-c){
+			cout<<a<<"="<<b<<"-"<<c;
+			break;
+		} 
+		if(a==b*c){
+			cout<<a<<"="<<b<<"*"<<c;
+			break;
+		} 
+		if(a==b/c){
+			cout<<a<<"="<<b<<"/"<<c;
+			break;
+		} 
+		if(c==b+a){
+			cout<<a<<"+"<<b<<"="<<c;
+			break;
+		}  
+		if(c==b-a){
+			cout<<a<<"-"<<b<<"="<<c;
+			break;
+		} 
+		if(c==b*a){
+			cout<<a<<"*"<<b<<"="<<c;
+			break;
+		} 
+		if(c==b/a){
+			cout<<a<<"/"<<b<<"="<<c;
+			break;
+		} 
+	}
+}
